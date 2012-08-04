@@ -1,0 +1,28 @@
+{
+  "name"			: "clitutorial",
+  "version"			: "0.0.1",
+  "description"		: "a sample CLi program created for a tutorial. (no real functionality)",
+  "url"           	: "http://oscar-mejia.com",
+  "main"			: "./bin",
+  "bin"           	: { "devcycle": "./bin/clitutorial" },
+  "directories"   	: { "test": "./test", "bin": "./bin" },
+  "dependencies"	: {
+						"commander": ">=1.0.0"
+				  	  },
+  "repository"		: {
+						"type": "git",
+						"url": "https://github.com/oscmejia/tutorial-nodejs-cli"
+  					  },
+  "scripts"			: {
+						"test": "./bin/clitutorial -h"
+  					},
+  "keywords"		: [
+						"CLI",
+						"tutorial"
+  						], 
+  "author"			: {
+						"name": "Oscar Mejia",
+						"email": "oscmejia@vovsolutions.com"
+  					  },
+  "license"			: "BSD"
+}
